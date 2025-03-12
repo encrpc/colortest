@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors</title>
+   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+              font-family: 'Quicksand', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Increased min size */
+            gap: 10px;
+            padding: 20px;
+            max-width: 1200px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .palette {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.2s ease-in-out;
+            cursor: pointer;
+            border-radius: 18px;
+            background-color: white;
+            gap: 5px;
+            padding: 8px;
+        }
+
+        .palette:hover {
+            transform: scale(2.01);
+        }
+
+        .color {
+            width: 160px; /* Increased size */
+            height: 160px; /* Increased size */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+            padding: 8px;
+        }
+
+        .color:hover {
+            transform: scale(1.03);
+        }
+
+        .color img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .text-top, .text-bottom {
+            font-size: 14px;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+
+        .colorway-label {
+            background-color: #d3d3d3; /* Light gray background */
+            color: gray; /* Gray text color */
+            border-radius: 15px; /* Rounded corners */
+            padding: 5px 10px; /* Padding for spacing */
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-01</div>
+            <div class="color">
+                <img src="a1_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #C8102E;">186c</span>
+                <span style="font-size: 12px; color: gray;">| 382c</span>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-02</div>
+            <div class="color">
+                <img src="a2_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #00778B;">3145c</span>
+                <span style="font-size: 12px; color: gray;">| 8c | 275c </span>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-03</div>
+            <div class="color">
+                <img src="a3_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #862633;">202c</span>
+                <span style="font-size: 12px; color: gray;">| 137c </span>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-04</div>
+            <div class="color">
+                <img src="a4_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #0057B8;">2935c</span>
+                <span style="font-size: 12px; color: gray;">| 877c</span>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-05</div>
+            <div class="color">
+                <img src="a5_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #0C2340;">289c</span>
+                <span style="font-size: 12px; color: gray;">| 877c | 189c </span>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-06</div>
+            <div class="color">
+                <img src="a6_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #0033A0;">186c</span>
+                <span style="font-size: 12px; color: gray;">| 123c | 209c </span>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-07</div>
+            <div class="color">
+                <img src="a7_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #1D4289;">7687c</span>
+                <span style="font-size: 12px; color: gray;">| 186c | 282c </span>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-08</div>
+            <div class="color">
+                <img src="a8_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #041E42;">282c</span>
+                <span style="font-size: 12px; color: gray;">| 5c | 123c  </span>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-09</div>
+            <div class="color">
+                <img src="a9_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #2C5234;">350c</span>
+                <span style="font-size: 12px; color: gray;">| 468c | 2935c </span>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-10</div>
+            <div class="color">
+                <img src="a10_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #0050B5;">2388</span>
+                <span style="font-size: 12px; color: gray;">| 877c | 289c </span>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-11</div>
+            <div class="color">
+                <img src="a11_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #BA0C2F;">200c</span>
+                <span style="font-size: 12px; color: gray;">| 877c | 447c </span>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-12</div>
+            <div class="color">
+                <img src="a12_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #0C2340;">652c</span>
+                <span style="font-size: 12px; color: gray;">| 123c | 424c | 289c</span>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-13</div>
+            <div class="color">
+                <img src="a13_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #0C2340;">289c</span>
+                <span style="font-size: 12px; color: gray;">| 872c | 186c </span>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-14</div>
+            <div class="color">
+                <img src="a14_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #8D9093;">877c</span>
+                <span style="font-size: 12px; color: gray;">| Black </span>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-15</div>
+            <div class="color">
+                <img src="a15_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #963821;">174c</span>
+                <span style="font-size: 12px; color: gray;">| 874c | 386c </span>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-16</div>
+            <div class="color">
+                <img src="a16_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #768692;">7544c</span>
+                <span style="font-size: 12px; color: gray;">| Black</span>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-17</div>
+            <div class="color">
+                <img src="a17_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #023DA5;">293c</span>
+                <span style="font-size: 12px; color: gray;">| 5c | 165c</span>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-18</div>
+            <div class="color">
+                <img src="a18_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #023DA5;">293c</span>
+                <span style="font-size: 12px; color: gray;">| 877c | 289c | 199c</span>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-19</div>
+            <div class="color">
+                <img src="a19_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #BA0C2F;">200c</span>
+                <span style="font-size: 12px; color: gray;">| 8c | 872c  </span>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-20</div>
+            <div class="color">
+                <img src="a20_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #FFC72C;">123c</span>
+                <span style="font-size: 12px; color: gray;">| 7687c | 289c</span>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+   <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-21</div>
+            <div class="color">
+                <img src="a21_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #0C2340;">289c</span>
+                <span style="font-size: 12px; color: gray;">| 647c | 368c</span>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-22</div>
+            <div class="color">
+                <img src="a22_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #041E42;">282c</span>
+                <span style="font-size: 12px; color: gray;">| Red c | 1235c | 285c</span>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-23</div>
+            <div class="color">
+                <img src="a23_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #2C5234;">186c</span>
+                <span style="font-size: 12px; color: gray;">| Black </span>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="palette">
+            
+            <div class="text-top colorway-label">Color Way-24</div>
+            <div class="color">
+                <img src="a24_ .jpg" alt=" ">
+            </div>
+            <div class="text-bottom">
+                <span style="font-size: 12px; color: #2C5234;">350c</span>
+                <span style="font-size: 12px; color: gray;">| 137c | 711c </span>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
